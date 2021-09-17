@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Calligraffitti|Mali");
 /* GENERAL STYLES */
 :root {
-  --mainYellow: #fdbe02;
-  --mainWhite: #fff;
-  --mainBlack: #071013;
-  --mainGrey: #9b9999;
+  --mainYellow: #f7af06;
+  --mainWhite: #fdfbf3;
+  --mainBlack: #1f3139;
+  --mainGrey: #b6b6b4;
   --TransGrey: rgba(0, 0, 0, 0.1);
 }
+
+/* palettes */
+/* https://coolors.co/1f3139-f7af06-e1243a-088190-b6b6b4-fdfbf3 */
+
 body {
   color: var(--mainBlack);
   background: var(--mainWhite);
@@ -15,7 +19,21 @@ body {
 .text-slanted {
   font-family: "Calligraffitti", cursive;
 }
+#logo {
+  filter: hue-rotate(-4deg);
+}
 
+.btn-yellow {
+  background: var(--mainYellow);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: var(--mainBlack);
+  border-radius: 0 !important;
+}
+.btn-yellow:hover {
+  background: var(--mainBlack);
+  color: var(--mainYellow);
+}
 /* #### Homepage #### */
 /* navbar */
 .navbar-toggler {
@@ -52,4 +70,14 @@ body {
   background: var(--mainYellow);
   border-radius: 50%;
   font-size: 0.8rem;
+}
+
+/* banner */
+.banner {
+  background: url("../img/pageBcg/bannerBcg.jpeg");
+  min-height: calc(100vh - 101px);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
