@@ -32,3 +32,24 @@ body {
 .nav-active {
   border-bottom: 0.1rem solid var(--mainYellow);
 }
+
+.navbar-icon {
+  font-size: 1.6rem;
+}
+.navbar-cart-icon {
+  color: var(--mainBlack);
+  position: relative;
+}
+.navbar-cart-icon:hover {
+  color: var(--mainGrey);
+}
+.cart-items {
+  position: absolute;
+  color: var(--mainWhite);
+  top: -15%;
+  right: -25%;
+  padding: 0.2rem 0.3rem;
+  background: var(--mainYellow);
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
