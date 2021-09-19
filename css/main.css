@@ -144,3 +144,9 @@ body {
   transform: translateX(200%);
   cursor: pointer;
 }
+
+/* newsletter */
+.form-icon {
+  background: var(--mainGrey);
+  color: var(--mainBlack);
+}
