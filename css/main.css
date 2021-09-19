@@ -126,3 +126,21 @@ body {
 .featured-container:hover .featured-store-link {
   transform: translateX(0);
 }
+
+/* partners */
+.partners {
+  background: var(--TransGrey);
+}
+
+.carousel-control-prev {
+  font-size: 2.5rem;
+  color: var(--mainBlack);
+  transform: translateX(-200%);
+  cursor: pointer;
+}
+.carousel-control-next {
+  font-size: 2.5rem;
+  color: var(--mainBlack);
+  transform: translateX(200%);
+  cursor: pointer;
+}
