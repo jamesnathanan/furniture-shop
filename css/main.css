@@ -150,3 +150,13 @@ body {
   background: var(--mainGrey);
   color: var(--mainBlack);
 }
+
+/* skills */
+.skills {
+  background: var(--mainBlack);
+}
+
+.skill-icon {
+  color: var(--mainYellow);
+  font-size: 2rem;
+}
