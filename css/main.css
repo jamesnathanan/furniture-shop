@@ -38,6 +38,35 @@ body {
   background: var(--mainBlack);
   color: var(--mainYellow);
 }
+
+.banner-products,
+.banner-single-product,
+.banner-store {
+  min-height: 60vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../img/pageBcg/productsBcg.jpeg") center/cover fixed no-repeat;
+}
+
+.banner-single-product {
+  min-height: 60vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../img/pageBcg/singleBcg.jpeg") center/cover fixed no-repeat;
+}
+
+.banner-store {
+  min-height: 60vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../img/pageBcg/storeBcg.jpeg") center/cover fixed no-repeat;
+}
 /* #### Homepage #### */
 /* navbar */
 .navbar-toggler {
