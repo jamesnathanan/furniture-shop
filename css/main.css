@@ -115,6 +115,17 @@ body {
   background-repeat: no-repeat;
 }
 
+/* services */
+.service-icon {
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--mainYellow);
+  background: var(--mainGrey);
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+}
+
 /* featured section */
 .old-price {
   text-decoration: line-through;
