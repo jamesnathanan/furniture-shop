@@ -287,3 +287,38 @@ body {
 .footer-icon:hover {
   color: var(--mainWhite);
 }
+
+/* ##### products ###### */
+.products-categories-underline {
+  height: 0.2rem;
+  width: 5rem;
+  background: var(--mainYellow);
+}
+
+.products-categories-link {
+  text-decoration: none !important;
+  color: var(--mainBlack);
+}
+.products-categories-link:hover {
+  color: var(--mainGrey);
+}
+
+.products-color {
+  height: 1rem;
+  width: 1rem;
+}
+.products-color-black {
+  background: black;
+}
+.products-color-red {
+  background: red;
+}
+.products-color-blue {
+  background: blue;
+}
+.products-color-yellow {
+  background: yellow;
+}
+.products-color-green {
+  background: green;
+}
