@@ -39,6 +39,19 @@ body {
   color: var(--mainYellow);
 }
 
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: var(--mainBlack);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainBlack);
+}
+.btn-black:hover {
+  background: var(--mainBlack);
+  color: var(--mainWhite);
+}
+
 .banner-products,
 .banner-single-product,
 .banner-store {
@@ -322,3 +335,31 @@ body {
 .products-color-green {
   background: green;
 }
+
+/* ###### end of Products ####### */
+/* SINGLE PRODUCT */
+.single-product-photo {
+  background: var(--TransGrey);
+  opacity: 0.5;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  border: 0.1rem solid transparent;
+  box-sizing: border-box !important;
+}
+.single-product-photo:hover {
+  border: 0.1rem solid var(--mainYellow);
+  opacity: 1;
+}
+
+.rating-icon {
+  color: var(--mainYellow);
+}
+
+.product-info-link {
+  color: var(--mainGrey);
+  text-decoration: none !important;
+}
+.product-info-link:hover {
+  color: var(--mainYellow);
+}
+/* END OF SINGLE PRODUCT */
